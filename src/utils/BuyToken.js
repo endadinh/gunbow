@@ -45,62 +45,78 @@ export async function BUSDContract() {
 }
 
 
+export async function checkValid() {
+    const contractPreSale = await preSaleContract();
+    const sold = await contractPreSale.methods['_saledToken']().call();
+    const total = await contractPreSale.methods['_maxTokenSale']().call();
+    const availToken = await ( web3.utils.fromWei(total, 'ether') - web3.utils.fromWei(sold,'ether') );
+    console.log('testttttttttttttttttttt',availToken);
+    return availToken;
+}
+
 export async function BuyToken(values) {
     Load()
     try {
-        const approveHash = await approve(values);
-        const interval = setInterval(async function () {
-            try {
-                await web3.eth.getTransactionReceipt(approveHash, async function (err, rec) {
-                    if (rec) {
-                        clearInterval(interval);
-                        if (rec.status === false) {
-                            toast('Approve fail');
-                        }
-                        else {
-                            toast('Approve successfully');
-                            const contractPreSale = await preSaleContract();
-                            const value = Number(values)
-                            const BN = await web3.utils.BN;
-                            const tokens = await web3.utils.toWei(value.toString())
-                            const number = new BN(tokens);
-                            // const gas = await getGasPrice();
+        const availToken = await checkValid();
+        if ( values > availToken  ){ 
+            alert(`Token sold out, Available Token selling left : ${availToken}`);
+        }
+        else {
 
-                            // console.log(window.ethereum.selectedAddress);
+            const approveHash = await approve(values);
+            const interval = setInterval(async function () {
+                try {
+                    await web3.eth.getTransactionReceipt(approveHash, async function (err, rec) {
+                        if (rec) {
+                            clearInterval(interval);
+                            if (rec.status === false) {
+                                toast('Approve fail');
+                            }
+                            else {
+                                toast('Approve successfully');
+                                const contractPreSale = await preSaleContract();
+                                const value = Number(values)
+                                const BN = await web3.utils.BN;
+                                const tokens = await web3.utils.toWei(value.toString())
+                                const number = new BN(tokens);
+                                // const gas = await getGasPrice();
+
+                                // console.log(window.ethereum.selectedAddress);
 
 
-                            var data = await contractPreSale.methods['buyByBUSD'](window.localStorage.getItem("refCode") || '0x0000000000000000000000000000000000000000', web3.utils.toHex(number)).encodeABI();
-                            const transactionParameters = {
-                                nonce: '0x00', // ignored by MetaMask
-                                // gasPrice: '0x09184e72a000', // customizable by user during MetaMask confirmation.
-                                // gas: gas, // customizable by user during MetaMask confirmation.
-                                to: preSaleContractAddress, // Required except during contract publications.
-                                from: window.ethereum.selectedAddress, // must match user's active address.
-                                // value: web3.utils.toHex(number), // Only required to send ether to the recipient from the initiating external account.
-                                data: data,
-                                chainId: web3.utils.toHex(56), // Used to prevent transaction reuse across blockchains. Auto-filled by MetaMask.
-                            };
-                            const txHash = await window.ethereum.request({
-                                method: 'eth_sendTransaction',
-                                params: [transactionParameters],
-                            })
-                                .then(async (res) => {
-                                    // unLoad();
-                                    await postBuyToken(window.ethereum.selectedAddress, SQFSmartContractAddress, res, value);
+                                var data = await contractPreSale.methods['buyByBUSD'](window.localStorage.getItem("refCode") || '0x0000000000000000000000000000000000000000', web3.utils.toHex(number)).encodeABI();
+                                const transactionParameters = {
+                                    nonce: '0x00', // ignored by MetaMask
+                                    // gasPrice: '0x09184e72a000', // customizable by user during MetaMask confirmation.
+                                    // gas: gas, // customizable by user during MetaMask confirmation.
+                                    to: preSaleContractAddress, // Required except during contract publications.
+                                    from: window.ethereum.selectedAddress, // must match user's active address.
+                                    // value: web3.utils.toHex(number), // Only required to send ether to the recipient from the initiating external account.
+                                    data: data,
+                                    chainId: web3.utils.toHex(56), // Used to prevent transaction reuse across blockchains. Auto-filled by MetaMask.
+                                };
+                                const txHash = await window.ethereum.request({
+                                    method: 'eth_sendTransaction',
+                                    params: [transactionParameters],
                                 })
-                                .catch(function (e) {
-                                    alert(`${i18next.t('_rejected_tx')}`);
-                                    unLoad();
-                                });
-                            return txHash;
+                                    .then(async (res) => {
+                                        // unLoad();
+                                        await postBuyToken(window.ethereum.selectedAddress, SQFSmartContractAddress, res, value);
+                                    })
+                                    .catch(function (e) {
+                                        alert(`${i18next.t('_rejected_tx')}`);
+                                        unLoad();
+                                    });
+                                return txHash;
+                            }
                         }
-                    }
-                })
-            }
-            catch (e) {
-                alert("Error :", e);
-            }
-        }, 1000);
+                    })
+                }
+                catch (e) {
+                    alert("Error :", e);
+                }
+            }, 1000);
+        }
 
     }
     catch (error) {
