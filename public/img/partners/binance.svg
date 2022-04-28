@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="155.33" height="54" viewBox="0 0 155.33 54">
+  <g id="Group_66285" data-name="Group 66285" transform="translate(-572 -7053)">
+    <circle id="Ellipse_13296" data-name="Ellipse 13296" cx="27" cy="27" r="27" transform="translate(572 7053)" fill="#fff"/>
+    <g id="Group_40076" data-name="Group 40076" transform="translate(573.053 7054.059)">
+      <g id="Group_40073" data-name="Group 40073" transform="translate(63.277 6.149)">
+        <text id="Binance" transform="translate(0 19)" fill="#fcb700" font-size="25" font-family="Helvetica"><tspan x="0" y="0">Binance</tspan></text>
+        <text id="Smart_Chain" data-name="Smart Chain" transform="translate(2.066 36.583)" fill="#fcb700" font-size="14" font-family="Helvetica"><tspan x="0" y="0">Smart Chain</tspan></text>
+      </g>
+      <g id="Group_40075" data-name="Group 40075" transform="translate(6.148 6.148)">
+        <g id="Group_40074" data-name="Group 40074">
+          <path id="Path_70191" data-name="Path 70191" d="M-342.175,2683.845l-4.431,4.433-7.82-7.82-7.617,7.619-4.493-4.492,12.05-12.05Z" transform="translate(374.144 -2671.535)" fill="#fcb700"/>
+          <path id="Path_70192" data-name="Path 70192" d="M-341.4,2850.174l-12.147,12.147-12.213-12.214,4.433-4.433,7.721,7.72,7.714-7.714Z" transform="translate(373.475 -2822.737)" fill="#fcb700"/>
+          <rect id="Rectangle_388" data-name="Rectangle 388" width="6.269" height="6.353" transform="translate(30.658 19.864) rotate(-45)" fill="#fcb700"/>
+          <path id="Path_70193" data-name="Path 70193" d="M-415.374,2791.633l-4.433,4.433-4.49-4.493,4.431-4.431Z" transform="translate(424.297 -2771.915)" fill="#fcb700"/>
+          <rect id="Rectangle_389" data-name="Rectangle 389" width="6.269" height="6.353" transform="translate(15.431 19.864) rotate(-45)" fill="#fcb700"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

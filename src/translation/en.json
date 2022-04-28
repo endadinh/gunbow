@@ -1,0 +1,220 @@
+{
+    "sancti_quest_on_frontline": "Sancti Quest on Frontline",
+    "_welcome" : "Welcome to Sancti Quest on Frontline",
+    "_marketplace": "Marketplace",
+    "_buy_token": "Buy Token",
+    "_watch_video": "Watch Video",
+    "_read_whitepaper": "Read Whitepaper",
+    "_view": "View",
+    "_amount": "Amount",
+    "_get": "GET",
+    "_ref": "REF",
+    "_item_attribute": "Item's Attribute",
+    "_level" : "Item's level",
+    "_energy": "Energy",
+    "_attack": "Attack",
+    "_defense": "Defense",
+    "_speed": "Speed",
+    "_lucky": "Lucky",
+    "_passive": "Passive",
+    "_sell_item": "Sell item",
+    "_buy_item" : "Buy item",
+    "_transfer_to_game": "Transfer to game",
+    "_transfer_item" : "Transfer item",
+    "_quantity" : "Quantity",
+    "_server" : "Server",
+    "_open" : "Open",
+    "_cancel": "Cancel",
+    "_buy_price":"Buy price",
+    "_sell_price":"Sell price",
+    "_rarity" : "Quality",
+    "_epic": "Epic",
+    "_normal": "Normal",
+    "_rare": "Rare",
+    "_balance": "Balance",
+    "_balance_available": "Balance Available",
+    "_buy_sqf": "Buy SQF",
+    "_unlock_percent" : "Unlock Percent",
+    "_claimed_percent" : "Claimed Percent",
+    "_item_details": "Item details",
+    "_new_items": "New items",
+    "_owner": "Owner",
+    "_created": "Created at",
+    "_price": "Price",
+    "_load_more": "Load more",
+    "_fee" : "Fee",
+    "_receive": "Receive",
+    "_cancel_sell": "Cancel sell this item ?",
+    "_success" : "Successfully !!!",
+    "_rejected": "Rejected !!!",
+    "_login_wallet_require" : "You need login Metamask first !!!",
+    "_confirm_transfer" : "Confirm transfer this item ? ",
+    "_confirm_sell" : "Confirm the sale of this item ? ",
+    "_rejected_tx" : "Rejected Transaction !!!",
+    "_select_net" : "Select Binance Testnet to Play Game !!",
+    "_waiting_tx" : "Attempting to get transaction receipt...", 
+    "_tx_fail" : "Transaction Fail!",
+    "_copy_address" : "Copied address!",
+    "_copy_refer_link": "Copied ReferLink!",
+    "_pending" : "Pending...",
+    "_connected_meta" : "Connected Metamask !!!",
+    "header": {
+        "home": "Home",
+        "marketplace": "Marketplace",
+        "news": "News",
+        "staking": "Staking",
+        "play_game": "Play game",
+        "balance": "Balance",
+        "wallet_connect": "Wallet Connect",
+        "white_paper": "Whitepaper"
+    },
+    "footer": {
+        "subscribe_us": "Subscribe us",
+        "content": "Shooting game with the highest coordinates in the solar system",
+        "copy_right": "©2022 Sancti Quest on Frontline, All Rights Reserved."
+    },
+    "hero": {
+        "pre_heading": "Sancti Quest  on Frontline",
+        "heading": "Sancti Quest on Frontline",
+        "content": "Shooting game with the highest coordinates in the solar system"
+    },
+    "buy_token": {
+        "pre_heading": "Buy token",
+        "heading": "Buy SQF",
+        "content": "One dilemma of gamefi projects is to control the inflation of games. Inflation can occur with token, NFT, items, … that make the project progressively lose its value.",
+        "content2": "Solving that problem, SQF has designed 1 token mechanism instead of 2 tokens (main token and reward token) as other projects. In SQF, token is not the main element that stores a project’s value but rather NFT.  Economy of the game revolves around NFT and NFT will be the place where the value is stored. It can be said that  NFT is the soul of the project."
+    },
+    "about": {
+        "pre_heading": "About",
+        "heading": "About game",
+        "content": "Sancti Quest on Frontline is a tactical shooter game that shoots under recommended coordinates with a drag-drop playstyle. Players will get experience through different levels from easy, medium to hard, through that full of game functions will be opened.",
+        "content2": "Each combat game’s context is a region that is designed with a reasonable layout and brightly colored. Sancti Quest on Frontline is built on the basis of unity 3D graphics, so in all of the missions, the characters are in cute eye-catching anime appearance along with flashy skill effects.",
+        "content3": "When entering the game, players know the reasons why they are on that kind of mission. They can fight solo or have your team up to fight in …, or against with Boss. Then being a winner, players complete their missions to collect equipment, golds for preparing and up levels. ",
+        "content4": "Let’s play and enjoy your shot in Sancti Quest on Frontline!!!"
+    },
+    "nfts": {
+        "pre_heading": "Collectible NFT",
+        "heading": "Collectible NFT Assets",
+        "content": "There are many kinds of NFT in this project that you can use to power up your characters. In general, NFT is divided into 2 main types: limited NFT and consumable NFT.",        
+        "content2": "Limited NFT: including weapons, dresses, accessories, pets, … These kinds of NFT are limited in number in which players store value when they upgrade levels day by day. NFT can be exchanged, be bought or sold on the marketplace.",
+        "content3": "Consumable NFT: including types of enhanced stones, upgrade materials, pearls, cards, charms, … These are types of consumable NFT, that means after being used, they will be directly burned. These NFT still exchanged in the marketplace like limited NFT. Consumable NFT are materials by which people can use for increasing their limited NFT that  they own."
+    },
+    "white_paper": {
+        "pre_heading": "Whitepaper",
+        "heading": "DETAILS",
+        "content": "See our whitepaper for detailed information"
+    },
+    "game_play": {
+        "pre_heading": "Game play",
+        "heading": "GAME PLAY",
+        "content": "Sancti Quest on Frontline is a turn-based strategy and fighting game. At the battlefield, warriors fight together with other opponents or legendary monsters to protect the peace of their world."
+    },
+    "token": {
+        "pre_heading": "TOKENOMICS",
+        "heading": "Tokenomics",
+        "content": "The SQF ecosystem later expands to many more interesting things. Accordingly, the SQF token may have more applications in the future.",
+        "team": "Team",
+        "seed_round" : "Seeding Round",
+        "private_round": "Private Sale",
+        "presale_round": "Pre Sale",
+        "public_round" : "Public Sale",
+        "partner_advisor" : "Partner & Advisor",
+        "marketing" : "Marketing",
+        "growth" : "Ecosystem Growth",
+        "liquidity" : "Liquidity",
+        "reserve" : "Reserve",
+        "token_name": "TOKEN NAME",
+        "token_symbol": "TOKEN SYMBOL",
+        "token_supply": "TOKEN SUPPLY",
+        "network": "BLOCKCHAIN NETWORK"
+    },
+    "road_map": {
+        "pre_heading": "Road map",
+        "heading": "ROAD MAP",
+        "content": "Please note that game development is ongoing and all projected dates are subject to change. All delays, if incurred, will be communicated to the community as soon as possible."
+    },
+    "team": {
+        "pre_heading": "Memberships",
+        "heading": "Our Team",
+        "content": "Lorem Ipsum is simply dummy text of the printing."
+    },
+    "advisor": {
+        "pre_heading": "Advisors",
+        "heading": "ADVISORS",
+        "content": "Lorem Ipsum is simply dummy text of the printing."
+    },
+    "partner": {
+        "pre_heading": "Partners",
+        "heading": "Partners & Investors",
+        "content": "Lorem Ipsum is simply dummy text of the printing."
+    },
+    "marketplace": {
+        "pre_heading": "Marketplace",
+        "heading": "Exclusive Digital Assets",
+        "content": "All selling items on Marketplace"
+    },
+    "news": {
+        "pre_heading": "News & Blogs",
+        "heading": "News & Blogs",
+        "content": "Lorem Ipsum is simply dummy text of the printing."
+    },
+    "staking": {
+        "pre_heading": "Staking",
+        "heading": "Comming soon",
+        "content": "We will release Staking in next upgrade !"
+    },
+    "airdrop": {
+        "pre_heading": "Airdrop",
+        "heading": "Complete missions to earn free Airdrop"
+    },
+    "account": {
+        "pre_heading": "Account",
+        "heading": "Account Profile",
+        "content": "All info and inventory of your account",
+        "accounts": {
+            "headline": "Account",
+            "overview": "Overview",
+            "my_wallet": "My Wallet",
+            "address": "Address",
+            "ref_link": "Referral Link",
+            "activity": "Activity History",
+            "buy_token": "Buy Token History"
+        },
+        "account": "Account Profile",
+        "inventory": "Inventory",
+        "airdrop": "Airdrop",
+        "selling": "Selling",
+        "buy": "Purchased items",
+        "sold": "Sold items"
+    },
+    "item_details": {
+        "pre_heading": "Details",
+        "heading": "Item Details",
+        "content" : "Detailed information about the item being sold"
+    },
+    "new_items": { 
+        "pre_heading": "New Items",
+        "heading" : "New Items",
+        "content" : "New items are on sale in the market!"
+    },
+    "sell_items": { 
+        "heading" : "Sell items",
+        "content" : "Sell your own items"
+    },
+    "transfer_items": { 
+        "heading" : "Transfer",
+        "content" : "Transfer item to game"
+    },
+    "errors" : { 
+        "amount_empty" : "Amount cannot be empty",
+        "amount_less" : "Amount must be less than the balance",
+        "amount_positive" : "The amount must be a positive value",
+        "amount_small" : "The amount BUSD to small !",
+        "price_empty" : "Price cannot be empty",
+        "price_less" : "Amount in decimal must be less than 18.",
+        "price_positive" : "The price must be a positive value ",
+        "quantity_positive" : "The quantity must be a positive value" ,
+        "quantity_less" : "Quantity cannot be more than available quantity. ",
+        "decimals" : "Under decimal 16 !"
+    }
+}

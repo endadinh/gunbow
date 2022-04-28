@@ -1,0 +1,158 @@
+{
+    "sancti_quest_on_frontline": "Sancti Quest on Frontline",
+    "_welcome" : "欢迎来到 Sancti Quest on Frontline",
+    "_marketplace": "市场",
+    "_buy_token": "购买代币",
+    "_watch_video": "看视频",
+    "_read_whitepaper": "阅读白皮书",
+    "_view": "查看更多",
+    "_amount": "数量",
+    "_get": "收到",
+    "_ref": "推荐代码",
+    "_item_attribute": "物品属性",
+    "_level" : "物品等级",
+    "_energy": "活力",
+    "_attack": "攻击",
+    "_defense": "防御",
+    "_speed": "速度",
+    "_lucky": "幸运的",
+    "_passive": "被动的",
+    "_sell_item": "卖",
+    "_buy_item" : "买",
+    "_transfer_to_game": "切换到游戏",
+    "_open" : "打开",
+    "_cancel": "取消",
+    "_buy_price":"购买价格",
+    "_sell_price":"售价",
+    "_rarity" : "质量",
+    "_epic": "史诗",
+    "_normal": "普通",
+    "_rare": "稀有",
+    "_balance": "剩余",
+    "_balance_frozen": "关键平衡",
+    "_buy_sqf": "购买 SQF",
+    "_item_details": "商品详情",
+    "_new_items": "新东西",
+    "_owner": "所有者",
+    "_created": "创建于",
+    "_price": "价钱",
+    "_load_more": "装载更多",
+    "header": {
+        "home": "主页",
+        "marketplace": "市场",
+        "news": "消息",
+        "staking": "Staking",
+        "play_game": "玩",
+        "balance": "剩余",
+        "wallet_connect": "连接钱包"
+    },
+    "footer": {
+        "subscribe_us": "注册以接收信息",
+        "content": "太阳系坐标最高的射击游戏",
+        "copy_right": "©2022 前线的神圣职责，保留所有权利."
+    },
+    "hero": {
+        "pre_heading": "SQF GAME",
+        "heading": "Sancti Quest on Frontline",
+        "content": "太阳系坐标最高的射击游戏"
+    },
+    "buy_token": {
+        "pre_heading": "购买代币",
+        "heading": "购买 SQF",
+        "content": "游戏金融项目的一个困境是控制游戏的通货膨胀。 通证、NFT、物品等可能会发生通货膨胀，导致项目逐渐失去价值。 \n 为了解决这个问题，SQF 设计了一种 1 代币机制，而不是像其他项目那样采用 2 代币（主代币和奖励代币）。 在 SQF 中，代币不是存储项目价值的主要元素，而是 NFT。 游戏的经济围绕 NFT 展开，NFT 将成为价值的储存手段。 可以说，NFT 是项目的灵魂。"
+    },
+    "about": {
+        "pre_heading": "游戏",
+        "heading": "关于 SQF 游戏",
+        "content": "SQF 是一款基于坐标的战术射击游戏，具有拖放式游戏玩法。玩家将体验从简单、中等到困难的不同关卡，从而开启游戏的全部功能。 \n 每个格斗游戏的背景都是一个布局合理、色彩鲜艳的区域。 SQF 建立在统一的 3D 图形之上，因此在所有任务中，角色都拥有可爱醒目的动漫外观以及华丽的技能效果。 \n 进入游戏后，玩家就会知道自己为什么要做这样的任务。他们可以单打独斗，也可以与您的团队协调战斗……，或对抗 Boss。然后，成为赢家，玩家完成收集装备、准备金币和升级的任务。 \n 在 SQF 中玩并享受您的射击！"
+    },
+    "nfts": {
+        "pre_heading": "收集 NFT",
+        "heading": "NFT 资产集",
+        "content": "这个项目中有许多类型的 NFT，你可以使用它们来增强你的角色。 一般来说，NFT 分为两大类：受限 NFT 和消耗性 NFT。 \n 有限 NFT：包括武器、服装、配饰、宠物……这些 NFT 数量有限，玩家可以在每天升级时存储价值。 NFT 可以在市场上进行交易、买卖。 \n 累积的NFT：包括强化石、升级材料、宝石、卡片、护身符……这些都是消耗性的NFT，意思是用完之后会直接被销毁烧掉。 这些 NFT 仍然作为有限的 NFT 在市场上进行交易。 消耗性 NFT 是人们可以用来增加他们拥有的有限 NFT 的一种材料。"
+    },
+    "white_paper": {
+        "pre_heading": "白皮书",
+        "heading": "知乎",
+        "content": "详情请看我们的官方报道！"
+    },
+    "game_play": {
+        "pre_heading": "风格游戏",
+        "heading": "风格游戏",
+        "content": "游戏玩法说明！"
+    },
+    "token": {
+        "pre_heading": "代币分配",
+        "heading": "代币分配",
+        "content": "Lorem Ipsum 只是印刷和排版行业的虚拟文本。 自 1500 年代以来，Lorem Ipsum 一直是行业标准的虚拟文本，当时一位未知的打印机采用了一系列类型并将其改组以形成样本书。",
+        "token_name": "T名称代币",
+        "token_symbol": "图标",
+        "token_supply": "供应代币",
+        "network": "网络区块链"
+    },
+    "road_map": {
+        "pre_heading": "路线",
+        "heading": "路线",
+        "content": "请注意，游戏开发正在进行中，所有预定日期可能会发生变化。 如有任何延误，将尽快通知社区。"
+    },
+    "team": {
+        "pre_heading": "成员",
+        "heading": "我们的队伍",
+        "content": "Lorem Ipsum 只是打印的虚拟文本。"
+    },
+    "advisor": {
+        "pre_heading": "顾问",
+        "heading": "顾问",
+        "content": "Lorem Ipsum 只是打印的虚拟文本。"
+    },
+    "partner": {
+        "pre_heading": "伙伴",
+        "heading": "合作伙伴和投资者",
+        "content": "Lorem Ipsum 只是打印的虚拟文本。"
+    },
+    "marketplace": {
+        "pre_heading": "市场",
+        "heading": "独家数字资产",
+        "content": "市场上出售的所有物品"
+    },
+    "news": {
+        "pre_heading": "新闻和博客",
+        "heading": "新闻和博客",
+        "content": "Lorem Ipsum 只是打印的虚拟文本。"
+    },
+    "staking": {
+        "pre_heading": "Staking",
+        "heading": "快来了",
+        "content": "我们将在下一次升级中发布 Staking！"
+    },
+    "account": {
+        "pre_heading": "帐户",
+        "heading": "帐户信息",
+        "content": "您的所有信息和库存",
+        "accounts": {
+            "headline": "帐户",
+            "overview": "概论",
+            "my_wallet": "我的钱包",
+            "address": "地址",
+            "ref_link": "推荐链接",
+            "activity": "操作历史",
+            "buy_token": "代币购买历史"
+        },
+        "account": "帐户信息",
+        "inventory": "仓库",
+        "airdrop": "补给礼物",
+        "selling": "发售中",
+        "buy": "买",
+        "sold": "卖"
+    },
+    "item_details": {
+        "pre_heading": "细节",
+        "heading": "项目详情",
+        "content" : "有关所售商品的详细信息"
+    },
+    "new_items": { 
+        "pre_heading": "新东西",
+        "heading" : "新东西",
+        "content" : "新商品在市场上出售！"
+    }
+}

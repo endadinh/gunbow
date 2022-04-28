@@ -1,0 +1,212 @@
+{
+    "sancti_quest_on_frontline": "Sancti Quest on Frontline",
+    "_welcome" : "Chào mừng đến với Sancti Quest on Frontline",
+    "_marketplace": "Thương trường",
+    "_buy_token": "Mua Token",
+    "_watch_video": "Xem Video",
+    "_read_whitepaper": "Đọc sách trắng",
+    "_view": "Xem thêm",
+    "_amount": "Số lượng",
+    "_get": "Nhận",
+    "_ref": "Mã giới thiệu",
+    "_item_attribute": "Thuộc tính vật phẩm",
+    "_level" : "Cấp độ",
+    "_energy": "Năng lượng",
+    "_attack": "Công",
+    "_defense": "Thủ",
+    "_speed": "Tốc",
+    "_lucky": "May mắn",
+    "_passive": "Bị động",
+    "_sell_item": "Bán",
+    "_buy_item" : "Mua vật phẩm",
+    "_transfer_to_game": "Chuyển vào game",
+    "_transfer_item" : "Chuyển vật phẩm",
+    "_quantity" : "Số lượng",
+    "_server" : "Máy chủ",
+    "_open" : "Mở",
+    "_cancel": "Hủy bỏ",
+    "_buy_price":"Giá mua",
+    "_sell_price":"Giá bán",
+    "_rarity" : "Phẩm chất",
+    "_epic": "Sử thi",
+    "_normal": "Bình thường",
+    "_rare": "Hiếm",
+    "_balance": "Số dư",
+    "_balance_frozen": "Số dư khóa",
+    "_buy_sqf": "Mua SQF",
+    "_item_details": "Mục chi tiết",
+    "_new_items": "Vật phẩm mới",
+    "_owner": "Chủ nhân",
+    "_created": "Khởi tạo",
+    "_price": "Giá bán",
+    "_load_more": "Tải thêm",
+    "_fee" : "Phí",
+    "_receive": "Nhận",
+    "_cancel_sell": "Hủy bán vật phẩm này?",
+    "_success" : "Thành công !!!",
+    "_rejected": "Đã từ chối !!!",
+    "_login_wallet_require" : "Bạn cần đăng nhập Metamask trước !!!",
+    "_confirm_transfer" : "Xác nhận chuyển vật phẩm này ? ",
+    "_confirm_sell" : "Xác nhận bán vật phẩm này ? ",
+    "_rejected_tx" : "Giao dịch bị từ chối !!!",
+    "_select_net" : "Chọn Binance Testnet để chơi trò chơi !!",
+    "_waiting_tx" : "Đang chờ lấy lấy biên lai giao dịch...", 
+    "_tx_fail" : "Giao dịch không thành công !!!",
+    "_copy_address" : "Đã sao chép địa chỉ !!!",
+    "_copy_refer_link": "Đã sao chép đường dẫn giới thiệu !!!",
+    "_pending" : "Đang xử lý ...",
+    "_connected_meta" : "Đã kết nối Metamask !!!",
+    "header": {
+        "home": "Trang chủ",
+        "marketplace": "Thương trường",
+        "news": "Tin tức",
+        "staking": "Staking",
+        "play_game": "Chơi",
+        "balance": "Số dư",
+        "wallet_connect": "Kết nối ví",
+        "white_paper": "Whitepaper"
+    },
+    "footer": {
+        "subscribe_us": "Đăng ký nhận thông tin",
+        "content": "Game bắn súng tọa độ đỉnh cao nhất hệ mặt trời",
+        "copy_right": "©2022 Nhiệm vụ thần thánh trên tiền tuyến, Mọi quyền được bảo lưu."
+    },
+    "hero": {
+        "pre_heading": "SQF GAME",
+        "heading": "Sancti Quest on Frontline",
+        "content": "Game bắn súng tọa độ đỉnh cao nhất hệ mặt trời"
+    },
+    "buy_token": {
+        "pre_heading": "Mua token",
+        "heading": "Mua SQF",
+        "content": "One dilemma of gamefi projects is to control the inflation of games. Inflation can occur with token, NFT, items, … that make the project progressively lose its value.",
+        "content2": "Solving that problem, SQF has designed 1 token mechanism instead of 2 tokens (main token and reward token) as other projects. In SQF, token is not the main element that stores a project’s value but rather NFT.  Economy of the game revolves around NFT and NFT will be the place where the value is stored. It can be said that  NFT is the soul of the project."
+    },
+    "about": {
+        "pre_heading": "Trò chơi",
+        "heading": "Về  SQF Game ",
+        "content": "Sancti Quest on Frontline là game bắn súng chiến lược, bắn theo tọa độ với lối chơi kéo thả đơn giản dễ tiếp cận. Người chơi sẽ được trải nghiệm game qua các cấp độ từ dễ, thường đến khó, qua đó các chức năng đầy đủ của game cũng được mở dần theo level của người chơi.",
+        "content2": "Các bối cảnh trong các trận đấu là từng vùng đất được thiết kế với bố cục hợp lý, màu sắc tươi sáng. Sancti Quest on Frontline được xây dựng trên nền tảng đồ họa unity 3D, trong nhiệm vụ các nhân vật sẽ đều trông dễ thương với tạo hình nhân vật anime bắt mắt cùng với hàng loạt hiệu ứng skill hào nhoáng.",
+        "content3": "Người chơi bước vào nhiệm vụ với tâm thế biết được lý do nào dẫn đến nhiệm vụ mình đang làm. Người chơi có thể đấu solo hoặc lập team đấu phó bản, hay đấu với các Bot. Ngoài ra, người chơi cũng có thể hoàn thành nhiệm vụ để nhận vật phẩm, vàng để trang bị và thăng cấp. ",
+        "content4": "Hãy chơi và tận hưởng những cú bắn của bạn trong Sancti Quest On Frontline!!!"
+    },
+    "nfts": {
+        "pre_heading": "Sưu tầm NFT",
+        "heading": "Bộ tài sản NFT",
+        "content": "Có nhiều loại NFT trong dự án này mà bạn có thể sử dụng để tăng sức mạnh cho các nhân vật của mình. Nhìn chung, NFT được chia thành 2 loại chính: NFT hạn chế và NFT tiêu hao.",        
+        "content2": "NFT giới hạn: bao gồm vũ khí, trang phục, phụ kiện, vật nuôi, ... Những loại NFT này có số lượng giới hạn, trong đó người chơi lưu trữ giá trị khi họ nâng cấp cấp độ từng ngày. NFT có thể được trao đổi, mua hoặc bán trên thị trường.",
+        "content3": "NFT tiêu hao: bao gồm các loại đá cường hóa, nguyên liệu nâng cấp, ngọc, thẻ, bùa,… Đây là những loại NFT tiêu hao, tức là sau khi sử dụng sẽ bị đốt trực tiếp. Những NFT này vẫn được trao đổi trên thị trường như NFT giới hạn. NFT tiêu hao là vật liệu mà mọi người có thể sử dụng để tăng NFT giới hạn mà họ sở hữu."
+    },
+    "white_paper": {
+        "pre_heading": "Sách trắng",
+        "heading": "Chi tiết",
+        "content": "Xem báo cáo chính thức của chúng tôi để biết thông tin chi tiết !"
+    },
+    "game_play": {
+        "pre_heading": "Lối chơi",
+        "heading": "Lối chơi",
+        "content": "Sancti Quest on Frontline là một trò chơi chiến đấu theo lượt. Tại chiến trường, các chiến binh cùng nhau chiến đấu với những đối thủ khác hoặc những con quái vật huyền thoại để bảo vệ hòa bình cho thế giới của họ."
+    },
+    "token": {
+        "pre_heading": "Phân bổ token",
+        "heading": "Phân bổ token",
+        "content": "Hệ sinh thái SQF sau này mở rộng ra nhiều thứ thú vị hơn. Theo đó, Token SQF có thể có nhiều ứng dụng hơn trong tương lai.",
+        "team": "Đội ngũ",
+        "seed_round" : "Seed Round",
+        "private_round": "Private Round",
+        "public_round" : "Public Round",
+        "partner_advisor" : "Đối tác & Cố vấn",
+        "marketing" : "Marketing",
+        "growth" : "Tăng trưởng hệ sinh thái",
+        "liquidity" : "Thanh khoản",
+        "reserve" : "Dự trữ",
+        "token_name": "TÊN TOKEN",
+        "token_symbol": "BIỂU TƯỢNG",
+        "token_supply": "TOKEN CUNG CẤP",
+        "network": "MẠNG BLOCKCHAIN"
+    },
+    "road_map": {
+        "pre_heading": "Lộ trình",
+        "heading": "Lộ trình",
+        "content": "Xin lưu ý rằng quá trình phát triển trò chơi đang diễn ra và tất cả các ngày dự kiến có thể thay đổi. Mọi sự chậm trễ nếu phát sinh sẽ được thông báo đến cộng đồng trong thời gian sớm nhất."
+    },
+    "team": {
+        "pre_heading": "Thành viên",
+        "heading": "Đội ngũ",
+        "content": "Lorem Ipsum chỉ đơn giản là văn bản giả của bản in."
+    },
+    "advisor": {
+        "pre_heading": "Cố vấn",
+        "heading": "CỐ VẤN",
+        "content": "Lorem Ipsum chỉ đơn giản là văn bản giả của bản in."
+    },
+    "partner": {
+        "pre_heading": "Đối tác",
+        "heading": "Đối tác",
+        "content": "Lorem Ipsum chỉ đơn giản là văn bản giả của bản in."
+    },
+    "marketplace": {
+        "pre_heading": "Thương trường",
+        "heading": "Tài sản kỹ thuật số độc quyền",
+        "content": "Tất cả các mặt hàng đang bán trên thương trường"
+    },
+    "news": {
+        "pre_heading": "Tin tức & Blog",
+        "heading": "Tin tức & Blog",
+        "content": "Lorem Ipsum chỉ đơn giản là văn bản giả của bản in."
+    },
+    "staking": {
+        "pre_heading": "Staking",
+        "heading": "Sắp ra mắt",
+        "content": "Chúng tôi sẽ phát hành Staking trong bản nâng cấp tiếp theo !"
+    },
+    "account": {
+        "pre_heading": "Tài khoản",
+        "heading": "Thông tin tài khoản",
+        "content": "Tất cả thông tin và kho đồ của bạn",
+        "accounts": {
+            "headline": "Tài khoản",
+            "overview": "Tổng quát",
+            "my_wallet": "Ví của tôi",
+            "address": "Địa chỉ",
+            "ref_link": "Link giới thiệu",
+            "activity": "Lịch sử hoạt động",
+            "buy_token": "Lịch sử mua Token"
+        },
+        "account": "Thông tin tài khoản",
+        "inventory": "Kho đồ",
+        "airdrop": "Quà tiếp tế",
+        "selling": "Đang bán",
+        "buy": "Đã mua",
+        "sold": "Đã bán"
+    },
+    "item_details": {
+        "pre_heading": "Chi tiết",
+        "heading": "Mục chi tiết",
+        "content" : "Thông tin chi tiết về mặt hàng đang được bán"
+    },
+    "new_items": { 
+        "pre_heading": "Vật phẩm mới",
+        "heading" : "Vật phẩm mới",
+        "content" : "Các mặt hàng mới đang được bán trên thị trường!"
+    },
+    "sell_items": { 
+        "heading" : "Bán vật phẩm",
+        "content" : "Bán vật phẩm của bạn"
+    },
+    "transfer_items": { 
+        "heading" : "Chuyển giao",
+        "content" : "Chuyển vật phẩm vào game"
+    },
+    "errors" : { 
+        "amount_empty" : "Số tiền không được để trống",
+        "amount_less" : "Số tiền phải nhỏ hơn số dư",
+        "amount_positive" : "Số tiền phải là một giá trị dương",
+        "price_empty" : "Giá không được để trống",
+        "price_less" : "Số tiền dưới dạng thập phân phải nhỏ hơn 18.",
+        "price_positive" : "Giá phải là một giá trị dương ",
+        "quantity_positive" : "Số lượng phải là một giá trị dương " ,
+        "quantity_less" : "Số lượng không được nhiều hơn số lượng có sẵn. ",
+        "decimals" : "Dưới số thập phân 16"
+    }
+}
