@@ -81,11 +81,17 @@ export async function approve(values) {
 }
 
 
+export async function getBuyedToken() { 
+    const contractPreSale = await preSaleContract();
+    var buyedToken = await contractPreSale.methods['buyedToken'](window.ethereum.selectedAddress).call();
+    var buyed = await web3.utils.fromWei(buyedToken, 'ether');
+    return buyed;
+}
+
 export async function getUnlockPercent() {
     const contractPreSale = await preSaleContract();
     var unlockPercent = await contractPreSale.methods['checkTimeUnlockPercent']().call();
     var claimedPercent = await contractPreSale.methods['claimedPercent'](window.ethereum.selectedAddress).call();
-    console.log('claimsssss', claimedPercent);
     return { unlockPercent, claimedPercent };
 }
 
@@ -109,7 +115,7 @@ export async function claimToken() {
             method: 'eth_sendTransaction',
             params: [transactionParameters],
         }).then(async res => { 
-            await waitTx(res);
+             await waitClaim(res);
         });
         return txHash;
     }
@@ -128,11 +134,39 @@ export async function getBalance() {
         // const tokens = balanceBN.div(divisor).toString();
         const balance = await web3.utils.fromWei(balance18, "ether");
         const availBalance = await web3.utils.fromWei(availBalance18, "ether");
-        return { balance: Number(balance).toFixed(0), availBalance: Number(availBalance).toFixed(0) };
+        return { balance: Number(balance).toFixed(3), availBalance: Number(availBalance).toFixed(3) };
     }
 }
 
 export async function waitTx(hash) {
+    toast(`${i18next.t('_waiting_tx')}`);
+    let status;
+    const interval =await setInterval(function () {
+        try {
+            web3.eth.getTransactionReceipt(hash, async function (err, rec) {
+                if (rec) {
+                    clearInterval(interval);
+                    if (rec.status === false) {
+                        alert(`${i18next.t('_tx_fail')}`);
+                        unLoad();
+                        return status = false;
+                    }
+                    else {
+                        alert(`${i18next.t('_success')}`);
+                        unLoad()     
+                        return status = true;               
+                    }
+                }
+            })
+        }
+        catch (e) {
+            alert("Error :", e);
+        }
+    }, 1000);
+    return status;
+}
+
+export async function waitClaim(hash) {
     toast(`${i18next.t('_waiting_tx')}`);
     const interval = setInterval(function () {
         try {
@@ -140,12 +174,17 @@ export async function waitTx(hash) {
                 if (rec) {
                     clearInterval(interval);
                     if (rec.status === false) {
-                        alert(`${i18next.t('_tx_fail')}`);
-                        unLoad()
+                        alert(`${i18next.t('_claim_fail')}`);
+                        // unLoad()
+                        window.location.href = "/account"
+                        // return false;
                     }
                     else {
-                        alert(`${i18next.t('_success')}`);
-                        unLoad()                    }
+                        alert(`${i18next.t('_claim_successfully')}`);
+                        window.location.href = "/account"
+                        // unLoad()                    
+                        // return true;
+                    }
                 }
             })
         }

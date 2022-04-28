@@ -5,7 +5,7 @@ import Explore from "../Explore/ExploreSix";
 import { toast } from 'react-toastify';
 import Activity from "./AccountInfo/Activity";
 import BuyToken from "./AccountInfo/BuyToken";
-import { claimToken, getBalance, getUnlockPercent } from "../../utils/Wallet";
+import { claimToken, getBalance, getBuyedToken, getUnlockPercent } from "../../utils/Wallet";
 import axios from "axios";
 // import Web3 from "web3";
 import { web3 } from "../../App";
@@ -29,6 +29,7 @@ class AccountProfile extends Component {
             balance: 0,
             unlockPercent: 0,
             claimedPercent: 0,
+            buyedToken: 0,
             countItem: 0,
             countHero: 0,
             countNoneHero: 0,
@@ -86,6 +87,15 @@ class AccountProfile extends Component {
         }
 
     }
+    async getBuyedToken() {
+        const buyed = getBuyedToken();
+        if (!buyed) {
+            return this.getBuyedToken();
+        }
+        else {
+            return buyed;
+        }
+    }
     async getBalance() {
         const balance = getBalance()
         if (!balance) {
@@ -108,6 +118,7 @@ class AccountProfile extends Component {
         setTimeout(async () => {
             const balance = await this.getBalance();
             const countItem = await this.countItem();
+            const buyedToken = await this.getBuyedToken();
             const {unlockPercent} = await this.getUnlockPercent();
             const {claimedPercent} = await this.getUnlockPercent();
             if (!balance || !countItem) {
@@ -123,6 +134,7 @@ class AccountProfile extends Component {
                     availableBalance: balance.availBalance,
                     unlockPercent : unlockPercent,
                     claimedPercent: claimedPercent,
+                    buyedToken: buyedToken,
                     countHero: countItem.Hero,
                     countNoneHero: countItem.noneHero
                 }, () => unLoad())
@@ -132,18 +144,12 @@ class AccountProfile extends Component {
     }
     async claimToken() { 
         try { 
-            if(this.state.unlockPercent === this.state.claimedPercent) { 
+            if((this.state.unlockPercent === this.state.claimedPercent) || (this.state.balance === this.state.availableBalance )){ 
                 // console.log('xxxxxx');
                 alert('You Claimed all of available token !');
             }
             else { 
-                const claimed = claimToken();
-                if(!claimed) { 
-                    return this.claimToken();
-                }
-                else { 
-                    return claimed;
-                }
+                await claimToken();
             }
         }
         catch(err) {
@@ -199,6 +205,10 @@ class AccountProfile extends Component {
                                     <h6>{i18next.t('account').accounts.my_wallet}</h6>
                                 </div>
                                 <div className="card-body d-flex justify-content-center text-center row">
+                                <div className="col-12 overview ">
+                                        <label className="control-label">{i18next.t('_buyed_token')} :</label>
+                                        <span> {this.state.buyedToken} <span className="sqf">SQF</span></span>
+                                    </div>
                                     <div className="col-12 overview ">
                                         <label className="control-label">{i18next.t('_balance')} :</label>
                                         <span> {this.state.balance} <span className="sqf">SQF</span></span>

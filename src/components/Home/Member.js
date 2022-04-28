@@ -22,6 +22,27 @@ const authorData = [
         "info": "Chief Marketing Officer at SQF Token Game",
         "linkedin" : "https://www.linkedin.com/in/peter-barta5/"
     },
+    {
+        "id": 3,
+        "img": "/img/Member/cto.png",
+        "avatar": "/img/avatar_2.jpg",  
+        "role" : "CTO",
+        "author": "Daniel Ross",
+        "btnText": "Follow",
+        "info": "Chief Technology Officer at SQF Token Game",
+        "linkedin" : "https://www.linkedin.com/in/daniel-ross5/"
+    },
+    // {
+    //     "id": 3,
+    //     "img": "/img/Member/cto.png",
+    //     "avatar": "/img/avatar_2.jpg",  
+    //     "role" : "CMO",
+    //     "author": "Peter Barta",
+    //     "btnText": "Follow",
+    //     "info": "Chief Marketing Officer at SQF Token Game",
+    //     "linkedin" : "https://www.linkedin.com/in/peter-barta5/"
+    // },
+    
 ]
 
 class Member extends Component {
