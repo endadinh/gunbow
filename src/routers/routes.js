@@ -433,7 +433,9 @@ class MyRouts extends React.Component {
             <Route exact path="/login">
               <Login connectedWallet={this.state.connectedWallet} />
             </Route>
-            <Route exact path="/signup" component={Signup} />
+            <Route exact path="/signup">
+              <Signup connectedWallet={this.state.connectedWallet} />
+            </Route>
             <Route exact path="/contact">
               <Contact connectedWallet={this.state.connectedWallet} />
             </Route>

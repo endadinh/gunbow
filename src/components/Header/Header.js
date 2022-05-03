@@ -50,11 +50,11 @@ class Header extends Component {
                   {i18next.t('header').news}
                 </Link>
               </div>
-              <div className="nav-item">
+              {/* <div className="nav-item">
                 <Link to ="/staking" className="nav-link">
                   {i18next.t('header').staking}
                 </Link>
-              </div>
+              </div> */}
               <div className="nav-item">
                 <a  href="https://thien-quang-nguyen.gitbook.io/product-docs/" className="nav-link">
                   {i18next.t('header').white_paper}
@@ -63,6 +63,11 @@ class Header extends Component {
               <div className="nav-item">
                 <Link to ="/airdrop" className="nav-link">
                   Event
+                </Link>
+              </div>
+              <div className="nav-item">
+                <Link to ="/signup" className="nav-link">
+                  Signup
                 </Link>
               </div>
               <div className="nav-item d-flex justify-content-center">
