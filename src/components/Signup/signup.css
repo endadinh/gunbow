@@ -1,0 +1,25 @@
+.input__main{
+    border: 5px solid #fbca60;
+    background-color: #00000080;
+
+    
+}
+
+.input__main::placeholder{
+    color: #ededed60;
+}
+
+.input__main:focus{
+    background-color: #00000090;
+    border-color: #fbca60;
+    color: unset;
+}
+
+
+.text-red{
+    color: rgb(250, 70, 70);
+}
+
+.font-bold{
+    font-weight: 700;
+}
