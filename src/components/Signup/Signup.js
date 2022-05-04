@@ -47,6 +47,7 @@ function Signup() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [rules, setRules] = useState("0");
+  const [accountType, setAccountType] = useState("0");
   const [errorObj, setErrorObj] = useState({
     username: "",
     email: "",
@@ -147,6 +148,11 @@ function Signup() {
     console.log(data);
   };
 
+  const handleChangeTypeAccount = (e) => {
+    console.log(e.target.value);
+    // setAccountType(e.target.value);
+  }
+
   return (
     <section className="author-area">
       <div className="container">
@@ -179,7 +185,7 @@ function Signup() {
                         if (!e.target.value) {
                           setErrorObj((prev) => ({
                             ...prev,
-                            username: "Bạn phải nhập trường username",
+                            username: "Username can not be empty !",
                           }));
                         }
                       }}
@@ -207,7 +213,7 @@ function Signup() {
                       </p>
                     )}
                   </div>
-                  <div className="mt-3">
+                  {/* <div className="mt-3">
                     <input
                       type="text"
                       className="input__main"
@@ -224,7 +230,7 @@ function Signup() {
                         if (!e.target.value) {
                           setErrorObj((prev) => ({
                             ...prev,
-                            fullname: "Bạn phải nhập trường fullname",
+                            fullname: "Full name can not be empty !",
                           }));
                         }
                       }}
@@ -235,7 +241,7 @@ function Signup() {
                         <span className="ml-1">{errorObj.fullname}</span>
                       </p>
                     )}
-                  </div>
+                  </div> */}
                   <div className="mt-3">
                     <input
                       type="password"
@@ -253,7 +259,7 @@ function Signup() {
                         if (!e.target.value) {
                           setErrorObj((prev) => ({
                             ...prev,
-                            password: "Bạn phải nhập trường password",
+                            password: "Password can not be empty !",
                           }));
                         }
                       }}
@@ -283,7 +289,7 @@ function Signup() {
                           setErrorObj((prev) => ({
                             ...prev,
                             confirmPassword:
-                              "Bạn phải nhập trường confirmPassword",
+                              "Password confirm can not be empty",
                           }));
                         }
                       }}
@@ -325,6 +331,27 @@ function Signup() {
                   </div>
                 </div>
                 <div className="col-12">
+                  <div className="px-2 mt-3" onChange={(e) => setAccountType(e.target.value)}>
+                    <h5>Select type account :</h5>
+                    <p>
+                      <input type="radio" id="human" value={"0"} name="radio-group" checked={accountType == "0" ? true : false} />
+                      <label for="human">Human</label>
+                    </p>
+                    <p>
+                      <input type="radio" id="goblin" value={"1"} name="radio-group" checked={accountType == "1" ? true : false} />
+                      <label for="goblin">Goblin</label>
+                    </p>
+                    <p>
+                      <input type="radio" id="devil" value={"2"} name="radio-group" checked={accountType == "2" ? true : false} />
+                      <label for="devil">Devil</label>
+                    </p>
+                    <p>
+                      <input type="radio" id="angel" value={"3"} name="radio-group" checked={accountType == "3" ? true : false} />
+                      <label for="angel">Angel</label>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-12">
                   <button
                     type="submit"
                     onClick={handlSignUp}
@@ -335,6 +362,24 @@ function Signup() {
                 </div>
               </div>
             </form>
+          </div>
+          <div className="container mt-5">
+            <div className="col-12 d-flex justify-content-center">
+              <div className="col-lg-4 col-md-6 col-sm-12 card m-2">
+                <img src={"/img/accountType/human.png"}></img>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12 card m-2">
+                <img src={"/img/accountType/goblin.png"}></img>
+              </div>
+            </div>
+            <div className="col-12 d-flex justify-content-center">
+              <div className="col-lg-4 col-md-6 col-sm-12 card m-2">
+                <img src={"/img/accountType/devil.png"}></img>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12 card m-2">
+                <img src={"/img/accountType/angel.png"}></img>
+              </div>
+            </div>
           </div>
         </div>
       </div>
