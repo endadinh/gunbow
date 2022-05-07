@@ -73,7 +73,7 @@ class Partners extends Component {
                             <div className="heading">
                                 <h3 className="mt-4">{i18next.t('partner').heading}</h3>
                             </div>
-                            <p>{i18next.t('partner').content}</p>
+                            {/* <p>{i18next.t('partner').content}</p> */}
                         </div>
                     </div>
                     <div className="row items mt-5 justify-content-center">

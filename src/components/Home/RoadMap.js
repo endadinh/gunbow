@@ -194,7 +194,7 @@ class RoadMap extends Component {
                                                 Official Launching Game (est. begin of July)
                                             </li>
                                             <li>
-                                                Story for each characters in Game
+                                                Each character in the game has their own story.
                                             </li>
                                         </ul>
                                     </div>
@@ -226,13 +226,13 @@ class RoadMap extends Component {
                                     <div className="col-lg-12 col-md-12 col-sm-12 content">
                                         <ul>
                                             <li>
-                                            Research on 3D game mainet
+                                                Research on 3D game mainet
                                             </li>
                                             <li>
-                                            Conferences with game community to develop SQF game in accordance with DAOs (Decentralized Autonomous Organization)
+                                                Conferences with game community to develop SQF game in accordance with DAOs (Decentralized Autonomous Organization)
                                             </li>
                                         </ul>
-                                    </div>                                     
+                                    </div>
                                 </div>
                             </div>
                         </div>

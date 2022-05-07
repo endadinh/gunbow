@@ -117,7 +117,7 @@ class GamePlay extends Component {
                                 <img src="/img/collections/Collection1.png"></img>
                             </div>
                             <div className="content" data-aos="flip-left" data-aos-easing="ease-out-cubic">
-                                <img className="img-slide" src={"/img/gif/gif1/gif1.gif"} />
+                                <img className="img-slide" src={"/img/gif/gif1/gif2.gif"} />
                                 {/* <canvas className="imgaeCanvas" imgname={"img/gif/gif1/gif1"} quantity={148} ext={".gif"}  width="300" height="250"></canvas> */}
                             </div>
                             {/* <Slider {...settings}>
