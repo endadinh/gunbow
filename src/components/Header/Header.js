@@ -71,20 +71,20 @@ class Header extends Component {
                 </Link>
               </div>
               <div className="nav-item d-flex justify-content-center">
-                {this.props.connectedWallet &&
-                  this.props.connectedWallet.status ? (
+                {/* {this.props.connectedWallet &&
+                  this.props.connectedWallet.status ? ( */}
 
                   <Link to ="#" className="btn btn-bordered-white nav-links active-wallet"
                     data-toggle="modal"
                     data-target="#myModalPlayGame"><span>{i18next.t('header').play_game}</span></Link>
-                ) : (
+                {/* ) : (
                   <a
                     href="/wallet-connect"
                     className="btn btn-bordered-white nav-links active-wallet"
                   >
                     <span>{i18next.t('header').play_game}</span>
                   </a>
-                )}
+                )} */}
               </div>
               <div className="nav-item d-flex justify-content-center">
                 {this.props.connectedWallet &&
