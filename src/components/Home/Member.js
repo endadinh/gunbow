@@ -66,7 +66,8 @@ class Member extends Component {
                             <div className="heading">
                                 <h3 className="mt-4">{i18next.t('team').heading}</h3>
                             </div>
-                            {/* <p>{i18next.t('team').content}</p> */}
+                            <p className='mt-5'>{i18next.t('team').content}</p>
+                            <p className='mt-3'>{i18next.t('team').content2}</p>
                         </div>
                     </div>
 

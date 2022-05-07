@@ -84,13 +84,13 @@
     "buy_token": {
         "pre_heading": "Buy token",
         "heading": "Buy SQF",
-        "content": "One dilemma of gamefi projects is to control the inflation of games. Inflation can occur with token, NFT, items, … that make the project progressively lose its value.",
+        "content": "One dilemma of Gamefi projects is to control the inflation of games. Tokens, NFTs, and other items are all susceptible to inflation. As a result, the project's value diminishes over time. To tackle this issue, the game's token has created a single token system rather than the two tokens (main token and reward token) used by other projects. The NFTs, not the token, is the fundamental element in this project that stores the project's value. The game's economy centers around NFTs, and NFTs will be the location where value is kept. It can be said that NFTs are the soul of the project.",
         "content2": "Solving that problem, SQF has designed 1 token mechanism instead of 2 tokens (main token and reward token) as other projects. In SQF, token is not the main element that stores a project’s value but rather NFT.  Economy of the game revolves around NFT and NFT will be the place where the value is stored. It can be said that  NFT is the soul of the project."
     },
     "about": {
         "pre_heading": "About",
         "heading": "About game",
-        "content": "Sancti Quest on Frontline is a tactical shooter game that shoots under recommended coordinates with a drag-drop playstyle. Players will get experience through different levels from easy, medium to hard, through that full of game functions will be opened.",
+        "content": "\"Sancti Quest on Frontline\" is a GameFi project developed on the Binance Smart Chain (BSC) platform, with a different economic structure than the vast majority of existing GameFi projects on the BSC. The most special thing is the mission to bring the game back to its true nature. Whether it's a regular game or GameFi, the most important aspect is still enjoyment and amusement for the players. Players can, of course, earn money in the same way they can in other games. \"Sancti Quest on Frontline\" is supposed to usher in a new age for both the GameFi and Crypto markets.",
         "content2": "Each combat game’s context is a region that is designed with a reasonable layout and brightly colored. Sancti Quest on Frontline is built on the basis of unity 3D graphics, so in all of the missions, the characters are in cute eye-catching anime appearance along with flashy skill effects.",
         "content3": "When entering the game, players know the reasons why they are on that kind of mission. They can fight solo or have your team up to fight in …, or against with Boss. Then being a winner, players complete their missions to collect equipment, golds for preparing and up levels. ",
         "content4": "Let’s play and enjoy your shot in Sancti Quest on Frontline!!!"
@@ -98,9 +98,9 @@
     "nfts": {
         "pre_heading": "Collectible NFT",
         "heading": "Collectible NFT Assets",
-        "content": "There are many kinds of NFT in this project that you can use to power up your characters. In general, NFT is divided into 2 main types: limited NFT and consumable NFT.",        
-        "content2": "Limited NFT: including weapons, dresses, accessories, pets, … These kinds of NFT are limited in number in which players store value when they upgrade levels day by day. NFT can be exchanged, be bought or sold on the marketplace.",
-        "content3": "Consumable NFT: including types of enhanced stones, upgrade materials, pearls, cards, charms, … These are types of consumable NFT, that means after being used, they will be directly burned. These NFT still exchanged in the marketplace like limited NFT. Consumable NFT are materials by which people can use for increasing their limited NFT that  they own."
+        "content": "This project contains a variety of NFTs that you can use to strengthen your characters. In general, there are two types of NFTs:",        
+        "content2": "Limited NFTs (non-fungible token): Weapons, outfits, accessories, and pet items are available. These kinds of NFTs are limited in the number of ways in which players store value when they upgrade levels day by day. In the marketplace, NFTs can be exchanged, bought, or sold.",
+        "content3": "Consumable NFTs (non-fungible token) includes various types of enhanced stones, upgraded materials, cards, and so on. These are types of consumable NFTs, which means that after being used, they will be directly burned. These NFTs are still exchanged in the marketplace like limited NFTs. Consumable NFTs are materials that people can use to increase the value of the limited NFTs that they own."
     },
     "white_paper": {
         "pre_heading": "Whitepaper",
@@ -110,7 +110,7 @@
     "game_play": {
         "pre_heading": "Game play",
         "heading": "GAME PLAY",
-        "content": "Sancti Quest on Frontline is a turn-based strategy and fighting game. At the battlefield, warriors fight together with other opponents or legendary monsters to protect the peace of their world."
+        "content": "Sancti Quest on Frontline is a turn-base strategy game along with fighting techniques. On the battlefield, warriors fight together with other opponents or legendary monsters to protect the peace of their world."
     },
     "token": {
         "pre_heading": "TOKENOMICS",
@@ -139,7 +139,8 @@
     "team": {
         "pre_heading": "Memberships",
         "heading": "Our Team",
-        "content": "Lorem Ipsum is simply dummy text of the printing."
+        "content": "The \"Sancti Quest on Frontline\" (SQF) game team is made up of excellent individuals. We used to be on the development teams for many major games in Europe. In 2020, we saw a new era in the gaming industry begin to emerge. At that time, a few games combined with blockchain technology were formed. People called these games Gameblockchain (game+blockchain), or GameFi (game+finance), because playing games could make money. However, accessing these titles was too new and risky. We don't have the confidence to pursue it yet.",
+        "content2": "Until the explosion of Gamefi in 2021 woke us up and was a great motivation for our team to work, build, and develop our studio's first GameFi. With a passion for the infinite game and a high spirit of dedication at work, we have overcome many difficulties together to be able to perfect this \"brainchild\"."
     },
     "advisor": {
         "pre_heading": "Advisors",

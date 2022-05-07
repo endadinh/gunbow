@@ -4,12 +4,12 @@ import i18next from 'i18next';
 const data = {
     "img": "/img/logo.png",
     "socialData": [
-    //   {
-    //     "id": 1,
-    //     "link": "facebook",
-    //     "icon": "fab fa-facebook-f",
-    //     "url": "#"
-    //   },
+      {
+        "id": 1,
+        "link": "facebook",
+        "icon": "fab fa-facebook-f",
+        "url": "https://www.facebook.com/sqfgameofficial"
+      },
       {
         "id": 2,
         "link": "twitter",
@@ -27,6 +27,12 @@ const data = {
         "link": "youtube",
         "icon": "fab fa-youtube",
         "url": "https://www.youtube.com/c/SQFGAMEOFFICIAL"
+      },
+      {
+        "id": 5,
+        "link": "group",
+        "icon": "fas fa-users",
+        "url": "https://t.me/sqfgameofficial"
       }
     ],
     "widgetData_1": [

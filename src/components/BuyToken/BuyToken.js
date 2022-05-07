@@ -106,7 +106,7 @@ class BuyTokenSection extends Component {
                                     <h3 className="mt-3 mb-0">{i18next.t('buy_token').heading}</h3>
                                 </div>
                                 <p>{i18next.t('buy_token').content}</p>
-                                <p>{i18next.t('buy_token').content2}</p>
+                                {/* <p>{i18next.t('buy_token').content2}</p> */}
                             </div>
                         </div>
                     </div>
