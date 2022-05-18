@@ -1,7 +1,21 @@
 import React, { Component } from 'react';
 import i18next from "i18next";
+import { toast } from 'react-toastify';
+
 
 class Hero extends Component {
+    constructor(props) {
+        super(props);
+        this.handleCopyText = this.handleCopyText.bind(this);
+    }
+    handleCopyText(type) {
+        if (type) {
+            if (type === "address") {
+                toast(`${i18next.t('_copy_address')}`);
+                return navigator.clipboard.writeText(window.ethereum.selectedAddress);
+            }
+        }
+    }
     render() {
         return (
             <section className="hero-section ">
@@ -29,10 +43,10 @@ class Hero extends Component {
                                             <span>SQF Contract</span>
                                         </div>
                                         <div className="col-8 content">
-                                            <i>0x7edc0ec89f987ecd85617b891c44fe462a325869</i>
+                                            <i style={{ cursor: "pointer" }} onClick={() => { this.handleCopyText("address") }}>0x5e84a852292195991A082CeC783b490e9e6A9f17</i>
                                         </div>
                                     </div>
-                                    <div className="row box">
+                                    {/* <div className="row box">
                                         <div className="col-4 title">
                                             <span>CoinMarketCap</span>
                                         </div>
@@ -47,7 +61,7 @@ class Hero extends Component {
                                         <div className="col-8 content">
                                             <i>https://www.coingecko.com/vi/ty_gia/bitcoin</i>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 {/* <div className="token-content">
                                     <div className="field-content">

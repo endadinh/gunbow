@@ -6,7 +6,7 @@ const web3 = Config ? new Web3(Config.rpcUrl) : null;
 
 export async function connectWallet() {
   if (window.ethereum) {
-    await window.ethereum.enable();
+    await window.ethereum.request({ method: "eth_requestAccounts" });
     const metamaskChainId = web3.utils.toBN(window.ethereum.chainId).toNumber()
     console.log(chainId);
     console.log(metamaskChainId === chainId)
@@ -159,7 +159,7 @@ export async function connectWallet() {
     console.log('aaaaaaaaaaaaaaa',web3);
     // console.log('chainId')
     if (window.ethereum) {
-      await window.ethereum.enable();
+      await window.ethereum.request({ method: "eth_requestAccounts" });
       if (window.ethereum && !window.ethereum.selectedAddress) {
         window.ethereum.request({ method: "eth_requestAccounts" });
       }

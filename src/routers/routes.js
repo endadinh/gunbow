@@ -146,7 +146,7 @@ class MyRouts extends React.Component {
     const $this = this;
     const web3 = await Web3Provider();
     if (window.ethereum) {
-      await window.ethereum.enable();
+      await window.ethereum.request({ method: "eth_requestAccounts" });
       if (window.ethereum && !window.ethereum.selectedAddress) {
         window.ethereum.request({ method: "eth_requestAccounts" });
       }

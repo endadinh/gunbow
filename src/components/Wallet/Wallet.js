@@ -69,7 +69,8 @@ class Activity extends Component {
     async onClick_Connect_Wallet(e, type){
         if (type === 'METAMASK') {
             if(window.ethereum){
-              await window.ethereum.enable().then(async () => { 
+              await window.ethereum.request({ method: "eth_requestAccounts" })
+              .then(async () => { 
                 toast(`${i18next.t('_connected_meta')}`);
                await window.location.replace("/");
               })
@@ -95,7 +96,7 @@ class Activity extends Component {
         //     // check if metamask is logged in.
         //     if(!window.ethereum.selectedAddress){
         //         console.log('Please log in metamask ');
-        //         window.ethereum.enable();
+        //         await window.ethereum.request({ method: "eth_requestAccounts" });
         //     }else{
         //         console.log(`connected address : ${window.ethereum.selectedAddress} `);
         //         console.log(`connected chainId : ${window.ethereum.chainId} `);
