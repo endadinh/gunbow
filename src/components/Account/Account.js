@@ -6,6 +6,8 @@ import Buy from './Buy';
 import Sold from './sold';
 import Airdrop from './Airdrop';
 import i18next from 'i18next';
+import {activeAccount} from "../../utils/AccountBlockchain"
+import { Load, unLoad } from '../../utils/Loader';
 // import axios from 'axios';
 
 export const Style = {
@@ -22,7 +24,6 @@ class Account extends Component {
             style: {},
 
         }
-
         this.handleChangeStage = this.handleChangeStage.bind(this);
     }
     handleChangeStage(value) {
@@ -32,6 +33,8 @@ class Account extends Component {
     async getData() {
 
     }
+
+
     async componentDidMount() {
         // console.log('aaa',window.ethereum.selectedAddress)
         console.log('account props', this.props.currentStage)
@@ -90,6 +93,14 @@ class Account extends Component {
                                 <a href="/account/sold" className={`btn btn-bordered ${this.state.currentStage === "SOLD" ? "active" : ""}`} >
                                     <span className=""   >{i18next.t('account').sold}</span>
                                 </a>
+                            </div>
+                              <div className="nav-button">
+                                {/* <a href="/account/nft-sub-wallet" className={`btn btn-bordered ${this.state.currentStage === "SUB" ? "active" : ""}`} >
+                                    <span className=""   >{i18next.t('account').subWallet}</span>
+                                </a> */}
+                                {/* <a href="#" className={`btn btn-bordered`} onClick={(e) => this.testHandleEventAccount(e)}> */}
+                                    {/* <span className="">Cờ lít vào đây nè</span> */}
+                                {/* </a> */}
                             </div>
                         </div>
                         <div className="col-lg-10 col-md-12 col-sm-12 account-section">

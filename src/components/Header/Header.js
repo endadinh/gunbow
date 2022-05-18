@@ -89,12 +89,12 @@ class Header extends Component {
               <div className="nav-item d-flex justify-content-center">
                 {this.props.connectedWallet &&
                   !this.props.connectedWallet.address ? (
-                  <a
-                    href="/wallet-connect"
+                  <Link
+                    to="/wallet-connect"
                     className="btn btn-bordered-white active-wallet nav-links"
                   >
                     <span><i className="icon-wallet mr-md-2" />{i18next.t('header').wallet_connect}</span>
-                  </a>
+                  </Link>
                 ) : (
                     <Link
                       to="/account"

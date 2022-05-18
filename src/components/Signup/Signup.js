@@ -55,6 +55,7 @@ function Signup() {
     password: "",
     confirmPassword: "",
     rules: "",
+    accountType: "",
   });
 
   useEffect(() => {
@@ -132,7 +133,8 @@ function Signup() {
     return true;
   };
 
-  const handlSignUp = (e) => {
+  const handleSignUp = (e) => {
+
     e.preventDefault();
     const isValid = handleValidatedValues();
     if (!isValid) return;
@@ -146,6 +148,7 @@ function Signup() {
     }
 
     console.log(data);
+    // e.preventDefault();
   };
 
   const handleChangeTypeAccount = (e) => {
@@ -307,7 +310,7 @@ function Signup() {
                     <input
                       type="checkbox"
                       value={rules}
-                      checked={rules != "0"}
+                      // defaultChecked={rules != "0"}
                       onChange={(e) =>
                         setRules(e.target.value == "0" ? "1" : "0")
                       }
@@ -334,27 +337,27 @@ function Signup() {
                   <div className="px-2 mt-3" onChange={(e) => setAccountType(e.target.value)}>
                     <h5>Select type account :</h5>
                     <p>
-                      <input type="radio" id="human" value={"0"} name="radio-group" checked={accountType == "0" ? true : false} />
-                      <label for="human">Human</label>
+                      <input type="radio" id="human" value={"0"} name="radio-group" defaultChecked={accountType == "0" ? true : false} />
+                      <label htmlFor="human">Human</label>
                     </p>
                     <p>
-                      <input type="radio" id="goblin" value={"1"} name="radio-group" checked={accountType == "1" ? true : false} />
-                      <label for="goblin">Goblin</label>
+                      <input type="radio" id="goblin" value={"1"} name="radio-group" defaultChecked={accountType == "1" ? true : false} />
+                      <label htmlFor="goblin">Goblin</label>
                     </p>
                     <p>
-                      <input type="radio" id="devil" value={"2"} name="radio-group" checked={accountType == "2" ? true : false} />
-                      <label for="devil">Devil</label>
+                      <input type="radio" id="devil" value={"2"} name="radio-group" defaultChecked={accountType == "2" ? true : false} />
+                      <label htmlFor="devil">Devil</label>
                     </p>
                     <p>
-                      <input type="radio" id="angel" value={"3"} name="radio-group" checked={accountType == "3" ? true : false} />
-                      <label for="angel">Angel</label>
+                      <input type="radio" id="angel" value={"3"} name="radio-group" defaultChecked={accountType == "3" ? true : false} />
+                      <label htmlFor="angel">Angel</label>
                     </p>
                   </div>
                 </div>
                 <div className="col-12">
                   <button
                     type="submit"
-                    onClick={handlSignUp}
+                    onClick={handleSignUp}
                     className="btn btn-bordered-white my-3"
                   >
                     Sign Up
