@@ -21,7 +21,7 @@ class About extends Component {
                         <div className='col-lg-4 col-md-12 col-sm-12 mt-5'  data-aos="fade-up">
                             <img className="card-img-top" src="/img/SQF/capdoihoancanh.png" alt="" />
                             <div className="button-group col-lg-12 col-md-12 col-sm-12">
-                                <button className="btn btn-bordered-watch video-btn" type='button' data-toggle="modal" data-src="https://www.youtube.com/embed/8g0l4ZGWfSw" data-target="#myModal">
+                                <button className="btn btn-bordered-watch video-btn" type='button' data-toggle="modal" data-src="https://www.youtube.com/embed/AedygRG6b5Y" data-target="#myModal">
                                     <img className='play-button' src="/img/SQF/buttonwatchvideo.png" alt="watch"></img>
                                     {/* <i class="fas fa-play-circle"></i>  */}
                                     <span>{i18next.t('_watch_video')}</span>

@@ -2856,6 +2856,9 @@ ul#navId {
     }
   }
   .card {
+    .card-caption { 
+      min-height: 200px;
+    }
     border-radius: 10px;
     color: var(--btn-main-color);
     &:hover {
