@@ -46,7 +46,7 @@ class AccountProfile extends Component {
             }
             else if (type === "referLink") {
                 toast(`${i18next.t('_copy_refer_link')}`);
-                return navigator.clipboard.writeText("https://gunbow-project.vercel.app/buy-token/" + window.ethereum.selectedAddress);
+                return navigator.clipboard.writeText("https://sqfgame.com/buy-token/" + window.ethereum.selectedAddress);
             }
         }
     }
@@ -256,7 +256,7 @@ class AccountProfile extends Component {
                                                 type="text"
                                                 className="form-control"
                                                 onClick={() => { this.handleCopyText("referLink") }}
-                                                placeholder={`https://gunbow-project.vercel.app/${this.props.connectedWallet.address}`}
+                                                placeholder={`https://sqfgame.com/${this.props.connectedWallet.address}`}
                                                 readOnly
                                             />
                                             <div className="input-group-append">

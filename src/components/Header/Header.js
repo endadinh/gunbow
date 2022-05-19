@@ -37,14 +37,12 @@ class Header extends Component {
                   <span>{i18next.t('header').home}</span>
                 </Link>
               </div>
-              <div className="nav-item">
+              {/* <div className="nav-item">
                 <Link to="/marketplace" className="nav-link">
                 {i18next.t('header').marketplace}
 
                 </Link>
-                {/* <Link to ="/marketplace" className="nav-link">
-                </Link> */}
-              </div>
+              </div> */}
               <div className="nav-item">
                 <Link to ="/news" className="nav-link">
                   {i18next.t('header').news}
@@ -60,7 +58,7 @@ class Header extends Component {
                   {i18next.t('header').white_paper}
                 </a>
               </div>
-              <div className="nav-item">
+              {/* <div className="nav-item">
                 <Link to ="/airdrop" className="nav-link">
                   Event
                 </Link>
@@ -69,7 +67,7 @@ class Header extends Component {
                 <Link to ="/signup" className="nav-link">
                   Signup
                 </Link>
-              </div>
+              </div> */}
               <div className="nav-item d-flex justify-content-center">
                 {/* {this.props.connectedWallet &&
                   this.props.connectedWallet.status ? ( */}

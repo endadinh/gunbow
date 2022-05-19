@@ -77,8 +77,14 @@ class MyRouts extends React.Component {
         xxx.address = window.ethereum.selectedAddress;
         xxx.chainId = window.ethereum.chainId;
         xxx.wallet = "METAMASK";
+        //testnet 
+        // const busdAddress = "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee";
 
-        const busdAddress = "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee";
+
+        //mainnet
+        const busdAddress = "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56";
+
+        
         // const holderAddress = "0x8894e0a0c962cb723c1976a4421c95949be2d4e3";
         
         // just the `balanceOf()` is sufficient in this case

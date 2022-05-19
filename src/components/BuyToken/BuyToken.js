@@ -188,7 +188,8 @@ class BuyTokenSection extends Component {
                                         className="btn btn-bordered-buy mt-3 d-flex justify-content-center"
                                         type="submit"
                                     >
-                                        <span> {i18next.t('_buy_sqf')} </span>
+                                        {/* <span> {i18next.t('_buy_sqf')} </span> */}
+                                        <span> 9AM GTM+0, 22th May</span>
                                     </button>
                                 </div>
                             </div>

@@ -8,109 +8,117 @@ import "slick-carousel/slick/slick-theme.css";
 const data = [
     {
         img: "/img/shopitems/1.png",
-        energy: 19,
-        attack: 8,
-        defense: 12,
-        speed: 26,
-        lucky: 30,
+        attack: 1700,
+        area: 100,
+        attackStone: "No socket",
+        healthStone: "No socket",
+        defenseStone: "No socket",
+        infinityStone: "No socket",
         passive: "Attribute Passive",
-        name: "Hero's Name"
+        name: "Rage of the Single Dog"
     },
     {
         img: "/img/shopitems/2.png",
-        energy: 19,
-        attack: 8,
-        defense: 12,
-        speed: 26,
-        lucky: 30,
+        attack: 1700,
+        area: 100,
+        attackStone: "No socket",
+        healthStone: "No socket",
+        defenseStone: "No socket",
+        infinityStone: "No socket",
         passive: "Attribute Passive",
-        name: "Hero's Name"
+        name: "Golden Horn Spirit Gun"
     },
     {
         img: "/img/shopitems/3.png",
-        energy: 19,
-        attack: 8,
-        defense: 12,
-        speed: 26,
-        lucky: 30,
+        attack: 1800,
+        area: 100,
+        attackStone: "No socket",
+        healthStone: "No socket",
+        defenseStone: "No socket",
+        infinityStone: "No socket",
         passive: "Attribute Passive",
-        name: "Hero's Name"
+        name: "Rose Wand"
     },
     {
         img: "/img/shopitems/4.png",
-        energy: 19,
-        attack: 8,
-        defense: 12,
-        speed: 26,
-        lucky: 30,
+        attack: 1800,
+        area: 100,
+        attackStone: "No socket",
+        healthStone: "No socket",
+        defenseStone: "No socket",
+        infinityStone: "No socket",
         passive: "Attribute Passive",
-        name: "Hero's Name"
+        name: "Sheepshead Sickle"
     },
     {
         img: "/img/shopitems/5.png",
-        energy: 19,
-        attack: 8,
-        defense: 12,
-        speed: 26,
-        lucky: 30,
+        attack: 1800,
+        area: 100,
+        attackStone: "No socket",
+        healthStone: "No socket",
+        defenseStone: "No socket",
+        infinityStone: "No socket",
         passive: "Attribute Passive",
-        name: "Hero's Name"
+        name: "Dragon Roar"
     },
     {
         img: "/img/shopitems/6.png",
-        energy: 19,
-        attack: 8,
-        defense: 12,
-        speed: 26,
-        lucky: 30,
+        attack: 1800,
+        area: 100,
+        attackStone: "No socket",
+        healthStone: "No socket",
+        defenseStone: "No socket",
+        infinityStone: "No socket",
         passive: "Attribute Passive",
-        name: "Hero's Name"
+        name: "Dragon Wall Plate"
     },
     {
         img: "/img/shopitems/7.png",
-        energy: 19,
-        attack: 8,
-        defense: 12,
-        speed: 26,
-        lucky: 30,
+        attack: 1800,
+        area: 100,
+        attackStone: "No socket",
+        healthStone: "No socket",
+        defenseStone: "No socket",
+        infinityStone: "No socket",
         passive: "Attribute Passive",
-        name: "Hero's Name"
+        name: "Corn Gun"
     },
     {
         img: "/img/shopitems/8.png",
-        energy: 19,
-        attack: 8,
-        defense: 12,
-        speed: 26,
-        lucky: 30,
+        attack: 1800,
+        area: 100,
+        attackStone: "No socket",
+        healthStone: "No socket",
+        defenseStone: "No socket",
+        infinityStone: "No socket",
         passive: "Attribute Passive",
-        name: "Hero's Name"
+        name: "Bone Dragon Resentment"
     },
 ];
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <img
-        className={className}
-        style={{ ...style, display: "block"}}
-        onClick={onClick}
-        src="/img/SQF/buttonheroname.png"
-      />
+        <img
+            className={className}
+            style={{ ...style, display: "block" }}
+            onClick={onClick}
+            src="/img/SQF/buttonheroname.png"
+        />
     );
-  }
-  
-  function SamplePrevArrow(props) {
+}
+
+function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <img
-        className={className}
-        style={{ ...style, display: "block"}}
-        onClick={onClick}
-        src="/img/SQF/buttonheroname.png"
-      />
+        <img
+            className={className}
+            style={{ ...style, display: "block" }}
+            onClick={onClick}
+            src="/img/SQF/buttonheroname.png"
+        />
     );
-  }
+}
 
 class CollectibleNFT extends Component {
     state = {
@@ -130,7 +138,7 @@ class CollectibleNFT extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             nextArrow: <SampleNextArrow className="next-arrow" />,
-            prevArrow: <SamplePrevArrow className="prev-arrow"/>
+            prevArrow: <SamplePrevArrow className="prev-arrow" />
         };
         return (
             <section className="collection-nft-section">
@@ -167,34 +175,35 @@ class CollectibleNFT extends Component {
                                                         </div>
                                                         <div className="content">
                                                             <div className="attributes col-12">
-                                                                <img src="/img/icons/lighting.png" />
-                                                                <span>{i18next.t('_energy')} : {item.energy} </span>
-                                                            </div>
-                                                            <div className="attributes col-12">
                                                                 <img src="/img/icons/swords.png" />
-                                                                <span> {i18next.t('_attack')} : {item.attack} </span>
-                                                            </div>
-                                                            <div className="attributes col-12">
-                                                                <img src="/img/icons/shield.png" />
-                                                                <span>{i18next.t('_defense')} : {item.defense}</span>
+                                                                <span>{i18next.t('_attack')} : {item.attack} </span>
                                                             </div>
                                                             <div className="attributes col-12">
                                                                 <img src="/img/icons/speedometer.png" />
-                                                                <span>{i18next.t('_speed')}: {item.speed}</span>
+                                                                <span> {i18next.t('_area')} : {item.area} </span>
                                                             </div>
                                                             <div className="attributes col-12">
-                                                                <img src="/img/icons/four-leaf.png" />
-                                                                <span>{i18next.t('_lucky')}: {item.lucky}</span>
+                                                                <img src="/img/icons/attackStone.png" />
+                                                                <span>{i18next.t('_attackStone')} : {item.attackStone}</span>
                                                             </div>
                                                             <div className="attributes col-12">
-                                                                <span>{i18next.t('_passive')}: {item.passive}</span>
+                                                                <img src="/img/icons/healthStone.png" />
+                                                                <span>{i18next.t('_healthStone')}: {item.healthStone}</span>
+                                                            </div>
+                                                            <div className="attributes col-12">
+                                                                <img src="/img/icons/defenseStone.png" />
+                                                                <span>{i18next.t('_defenseStone')}: {item.defenseStone}</span>
+                                                            </div>
+                                                            <div className="attributes col-12">
+                                                                <img src="/img/icons/infinityStone.png" />
+                                                                <span>{i18next.t('_infinityStone')}: {item.infinityStone}</span>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 col-md-12 col-sm-12 item-section">
                                                     <div className="img-item">
-                                                        <img src={item.img} />
+                                                        <img src={item.img} width="200" height="200" />
                                                     </div>
                                                 </div>
                                             </div>
