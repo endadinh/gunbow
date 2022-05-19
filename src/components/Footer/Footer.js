@@ -180,7 +180,7 @@ class Footer extends Component {
                                     {/* Copyright Left */}
                                     <div className="copyright-left text-center m-auto">{i18next.t('footer').copy_right}</div>
                                     {/* Copyright Right */}
-                                    {/* <div className="copyright-right">Made with <i className="fas fa-heart" /> By <a href="#">Sancti Quest on Frontline</a></div> */}
+                                    <div className="copyright-right">Support Mail : <a href="#"> support@sqfgame.com </a></div>
                                 </div>
                             </div>
                         </div>
