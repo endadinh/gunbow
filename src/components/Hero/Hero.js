@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import i18next from "i18next";
 import { toast } from 'react-toastify';
 
+const Config = JSON.parse(localStorage.getItem('Config'));
+const SQFSmartContractAddress = Config ? Config.SQFSmartContractAddress : null;
 
 class Hero extends Component {
     constructor(props) {
@@ -12,7 +14,7 @@ class Hero extends Component {
         if (type) {
             if (type === "address") {
                 toast(`${i18next.t('_copy_address')}`);
-                return navigator.clipboard.writeText(window.ethereum.selectedAddress);
+                return navigator.clipboard.writeText(SQFSmartContractAddress);
             }
         }
     }
@@ -29,7 +31,8 @@ class Hero extends Component {
                             <p>{i18next.t('hero').content}</p>
                             {/* Buttons */}
                             <div className="button-group">
-                                <a className="btn btn-bordered-buy" href="/marketplace"><i className="fas fa-store mr-2" />{i18next.t('_marketplace')}</a>
+                                {/* <a className="btn btn-bordered-buy" href="/marketplace"><i className="fas fa-store mr-2" />{i18next.t('_marketplace')}</a> */}
+                                <a className="btn btn-bordered-buy" href="/#"><i className="fas fa-store mr-2" />{i18next.t('_marketplace')}</a>
                                 {/* <a className="btn btn-bordered-white my-3" href="/account"><i className="fas fa-shopping-cart mr-2" />{this.state.data.btn_2}</a> */}
                                 <a className="btn btn-bordered-buy" href="/buy-token"><i className="fas fa-credit-card mr-2" />{i18next.t('_buy_token')}</a>
                             </div>

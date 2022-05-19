@@ -2294,10 +2294,11 @@ ul#navId {
     background-attachment: fixed;
   }
   @media screen and (max-width: 500px) {
-    background: url("/img/background/br-mb1-500x800.jpg");
-    background-size: cover;
-    z-index: 1;
-    background-attachment: fixed;
+    background: none;
+    // background: url("/img/background/br-mb1-500x800.jpg");
+    // background-size: cover;
+    // z-index: 1;
+    // background-attachment: fixed;
   }
   .button-group {
     top: -40px;
@@ -2644,9 +2645,9 @@ ul#navId {
         background-position: center center;
         background-repeat: no-repeat;
         img {
-          margin: 120px auto;
-          width: 80px;
-          height: 80px;
+          margin: 110px auto;
+          width: 100px;
+          height: 100px;
           // margin: 100px 0;
         }
       }
@@ -2955,9 +2956,10 @@ ul#navId {
     background-attachment: fixed;
   }
   @media screen and (max-width: 500px) {
-    background: url("/img/background/br-mb2-500x800.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    background: none;
+    // background: url("/img/background/br-mb2-500x800.jpg");
+    // background-size: cover;
+    // background-attachment: fixed;
   }
   .intro {
     width: 100%;
@@ -3020,10 +3022,11 @@ ul#navId {
     background-attachment: fixed;
   }
   @media screen and (max-width: 500px) {
-    background: url("/img/background/br-mb3-500x800.jpg") 0 0 no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: none;
+    // background: url("/img/background/br-mb3-500x800.jpg") 0 0 no-repeat;
+    // background-size: cover;
+    // background-position: center;
+    // background-attachment: fixed;
   }
   .intro {
     width: 100%;
@@ -6207,9 +6210,10 @@ img.img11 {
     background-attachment: fixed;
   }
   @media screen and (max-width: 500px) {
-    background: url("/img/background/br1-500x800.jpg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background: none;
+    // background: url("/img/background/br1-500x800.jpg") no-repeat;
+    // background-size: cover;
+    // background-attachment: fixed;
   }
 }
 .bg-img2 {
@@ -6223,10 +6227,11 @@ img.img11 {
     background-attachment: fixed;
   }
   @media screen and (max-width: 500px) {
-    background: url("/img/background/br2-500x800.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: none;
+    // background: url("/img/background/br2-500x800.jpg") no-repeat;
+    // background-size: cover;
+    // background-position: center;
+    // background-attachment: fixed;
   }
 }
 .bg-img3 {
@@ -6240,10 +6245,11 @@ img.img11 {
     background-attachment: fixed;
   }
   @media screen and (max-width: 500px) {
-    background: url("/img/background/br3-500x800.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: none;
+    // background: url("/img/background/br3-500x800.jpg") no-repeat;
+    // background-size: cover;
+    // background-position: center;
+    // background-attachment: fixed;
   }
 }
 .bg-img4 {

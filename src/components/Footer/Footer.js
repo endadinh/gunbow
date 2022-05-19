@@ -33,7 +33,14 @@ const data = {
         "link": "group",
         "icon": "fas fa-users",
         "url": "https://t.me/sqfgameofficial"
+      },
+      {
+        "id": 6,
+        "link": "group",
+        "icon": "fab fa-discord",
+        "url": "https://discord.gg/HUnnN7BYRu"
       }
+
     ],
     "widgetData_1": [
       {

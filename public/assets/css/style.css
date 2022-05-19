@@ -1758,10 +1758,7 @@ ul#navId {
       background-attachment: fixed; } }
   @media screen and (max-width: 500px) {
     .about-section {
-      background: url("/img/background/br-mb1-500x800.jpg");
-      background-size: cover;
-      z-index: 1;
-      background-attachment: fixed; } }
+      background: none; } }
   .about-section .button-group {
     top: -40px; }
     .about-section .button-group .btn {
@@ -2021,9 +2018,9 @@ ul#navId {
         background-position: center center;
         background-repeat: no-repeat; }
         .collection-nft-section .slick-nft .item-section .img-item img {
-          margin: 120px auto;
-          width: 80px;
-          height: 80px; }
+          margin: 110px auto;
+          width: 100px;
+          height: 100px; }
       @media only screen and (max-width: 991px) {
         .collection-nft-section .slick-nft .item-section .img-item {
           margin: 0;
@@ -2221,9 +2218,7 @@ ul#navId {
       background-attachment: fixed; } }
   @media screen and (max-width: 500px) {
     .partners-section {
-      background: url("/img/background/br-mb2-500x800.jpg");
-      background-size: cover;
-      background-attachment: fixed; } }
+      background: none; } }
   .partners-section .intro {
     width: 100%;
     text-align: center; }
@@ -2274,10 +2269,7 @@ ul#navId {
       background-attachment: fixed; } }
   @media screen and (max-width: 500px) {
     .token-economics-section {
-      background: url("/img/background/br-mb3-500x800.jpg") 0 0 no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed; } }
+      background: none; } }
   .token-economics-section .intro {
     width: 100%;
     text-align: center; }
@@ -4466,9 +4458,7 @@ img.img11 {
       background-attachment: fixed; } }
   @media screen and (max-width: 500px) {
     .bg-img1 {
-      background: url("/img/background/br1-500x800.jpg") no-repeat;
-      background-size: cover;
-      background-attachment: fixed; } }
+      background: none; } }
 
 .bg-img2 {
   background: url("/img/background/br2.jpg") no-repeat;
@@ -4482,10 +4472,7 @@ img.img11 {
       background-attachment: fixed; } }
   @media screen and (max-width: 500px) {
     .bg-img2 {
-      background: url("/img/background/br2-500x800.jpg") no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed; } }
+      background: none; } }
 
 .bg-img3 {
   background: url("/img/background/br3.jpg") no-repeat;
@@ -4499,10 +4486,7 @@ img.img11 {
       background-attachment: fixed; } }
   @media screen and (max-width: 500px) {
     .bg-img3 {
-      background: url("/img/background/br3-500x800.jpg") no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed; } }
+      background: none; } }
 
 .bg-img4 {
   background: linear-gradient(rgba(34, 34, 34, 0.563), rgba(34, 34, 34, 0.515)), url("../../img/gameplay/gameplay4.png") no-repeat;
